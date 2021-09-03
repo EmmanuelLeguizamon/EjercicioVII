@@ -6,7 +6,16 @@ namespace EjercicioVII
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Bienvenido, ingresa tu nombre acá: ");
+      
+
+            string nombre = Console.ReadLine();
+            Console.WriteLine($"Hola {nombre}");
+
+            Console.ReadKey();
+
+
+
         }
     }
 }
